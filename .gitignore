@@ -1,13 +1,26 @@
-# Flutter/Dart
+# Dart / Flutter
 .dart_tool/
 .packages
 build/
 .flutter-plugins
 .flutter-plugins-dependencies
-pubspec.lock
 
-# C
+# C / C++ build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
 *.out
+*.dSYM/
+
+# Java build artifacts
+*.class
+target/
+out/
 
 # Python
 venv/
@@ -19,11 +32,11 @@ __pycache__/
 
 # IDE
 .idea/
-.vscode/
 *.iml
 
 # OS
 .DS_Store
-# Widget Preview related
-.widget_preview/
+Thumbs.db
 
+# Flutter widget preview
+.widget_preview/
